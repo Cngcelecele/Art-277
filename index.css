@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),
+     url(bb.jpeg); 
+    background-repeat: no-repeat;
+    height: 1200px; 
+    width: 100%; 
+    background-size: cover; 
+    color: rgb(255, 72, 0);
+    margin: 20px 0 0;
+}
+div nav{
+    color:black;
+    margin-left: 1cm;
+}
+div nav h1{
+    font-size: 50px; text-shadow: -5px 5px 5px red;
+}
+div nav h1 a{
+    margin-left : 3cm ; color: gold;
+  font-size: 25px; text-decoration: none; text-shadow: none;
+}
+div nav h1 a:hover{
+    background-color: rgb(243, 227, 142);
+    border-radius: 5px;
+}
+.head{
+    margin-top: 2cm;
+    padding-left: 1cm;
+    color: black;font-size: 30px;
+}
+.head p{
+    color: white;
+}
+.head a input{
+    color: red;
+    width:fit-content ;
+    height: fit-content;
+    font-size: 30px;
+}
+.head a input:hover{
+    background-color: gold;
+}
+footer{
+    background-color: rgb(255, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 50%;
+}
